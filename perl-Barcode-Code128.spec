@@ -3,8 +3,8 @@
 %bcond_without	tests	# do perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Barcode
-%define	pnam	Code128
+%define		pdir	Barcode
+%define		pnam	Code128
 Summary:	Barcode::Code128 - Perl module for generating CODE 128 bar codes
 Summary(pl):	Barcode::Code128 - modu³ Perla do generowania kodów paskowych CODE 128
 Name:		perl-Barcode-Code128
