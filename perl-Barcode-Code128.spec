@@ -6,7 +6,7 @@
 %define		pdir	Barcode
 %define		pnam	Code128
 Summary:	Barcode::Code128 - Perl module for generating CODE 128 bar codes
-Summary(pl):	Barcode::Code128 - modu³ Perla do generowania kodów paskowych CODE 128
+Summary(pl.UTF-8):   Barcode::Code128 - moduÅ‚ Perla do generowania kodÃ³w paskowych CODE 128
 Name:		perl-Barcode-Code128
 Version:	2.00
 Release:	2
@@ -25,11 +25,11 @@ can generate images in PNG or GIF format using the GD package, or it
 can generate a text string representing the barcode that you can
 render using some other technology if desired.
 
-%description -l pl
-Barcode::Code128 generuje kody paskowe przy u¿yciu symboli CODE 128.
-Mo¿e generowaæ obrazki w formacie PNG lub GIF przy u¿yciu pakietu GD
-albo tekst reprezentuj±cy kod paskowy, który mo¿na zrenderowaæ w inny
-sposób.
+%description -l pl.UTF-8
+Barcode::Code128 generuje kody paskowe przy uÅ¼yciu symboli CODE 128.
+MoÅ¼e generowaÄ‡ obrazki w formacie PNG lub GIF przy uÅ¼yciu pakietu GD
+albo tekst reprezentujÄ…cy kod paskowy, ktÃ³ry moÅ¼na zrenderowaÄ‡ w inny
+sposÃ³b.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
