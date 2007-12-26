@@ -12,7 +12,7 @@ Version:	2.01
 Release:	1
 License:	Public Domain
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Barcode-Code128/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Barcode/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a0aa077b26926c30659471d14515d907
 URL:		http://search.cpan.org/dist/Barcode-Code128/
 BuildRequires:	perl-devel >= 1:5.8.0
