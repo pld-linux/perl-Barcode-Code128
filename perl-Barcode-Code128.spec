@@ -8,12 +8,13 @@
 Summary:	Barcode::Code128 - Perl module for generating CODE 128 bar codes
 Summary(pl.UTF-8):	Barcode::Code128 - moduł Perla do generowania kodów paskowych CODE 128
 Name:		perl-Barcode-Code128
-Version:	2.00
-Release:	2
+Version:	2.01
+Release:	1
 License:	Public Domain
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	9838b2c070d90f781013a538c5ada15a
+Source0:	http://www.cpan.org/modules/by-module/Barcode-Code128/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	a0aa077b26926c30659471d14515d907
+URL:		http://search.cpan.org/dist/Barcode-Code128/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
